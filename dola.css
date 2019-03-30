@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    background-color: ;
+}
+
+header{
+    color: rgb(27, 129, 247);
+    text-align: center;
+    font-family: 'Poiret one', Arial;
+    font-style: italic;
+    font-size: 60px;
+    font-weight: bolder;
+    background: url(oscar-keys-58399-unsplash.jpg) center center fixed; 
+    display: flex;
+    justify-content: center;
+    height: 25vh;
+}
+
+.Main-Nav {
+    display: flex;
+    margin: 1px;
+    list-style: none;
+    font-size: 1.3em;
+    background: url(kelly-sikkema-216021-unsplash.jpg) no-repeat center center fixed;
+    background-color: #0c090371;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: green;
+}
+
+li{
+    padding: 15px;
+    margin: 1.5em;
+}
+
+h2{
+    color: blue;
+    text-align: center;
+    font-family: arial;
+    font-optical-sizing: 2.7em;
+    font-weight: inherit;
+}
+
+.push {
+    margin-left: auto;
+    display: flex;
+}
+
+hr{
+    line-break: loose;
+    color: blue;
+    background-color: blue;
+}
+
+.container {
+    margin-top: 25px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    justify-items: center;
+}    
+
+.container > div {
+    width: 275px;
+    height: 250px;
+    background-color: rgb(4, 153, 253);
+    border: 2px solid rgb(85, 30, 30);
+    border-radius: 5px;
+    font-family: Times New Roman;
+    font size: 1.0em;
+}
+
+h3{
+    margin: 0;
+}
+
+h5{
+    margin: 4px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+button{
+    float: left;
+    border: none;
+    color: white;
+    padding: 7em;
+    background-color: rgb(212, 230, 230);
+    text-align: center;
+    font-size: 10px;
+    margin-right: 5px;
+    border-radius: 9px;
+}
+
+button:hover{
+    background-color: rgb(17, 17, 10);
+    color: rgb(231, 230, 228);
+}
+
+@media only screen and (max-width: 670px){
+    h1{
+        font-size: 65px;
+    }
+    .Main-Nav {
+        font-size: 10px;
+    }
+    h2{
+        font-size: 2.0em;
+    }
+    .push {
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+
